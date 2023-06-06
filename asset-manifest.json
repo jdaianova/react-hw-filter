@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-hw-filter/static/css/main.e6c13ad2.css",
+    "main.js": "/react-hw-filter/static/js/main.e8d2ecaa.js",
+    "static/js/787.04097c43.chunk.js": "/react-hw-filter/static/js/787.04097c43.chunk.js",
+    "index.html": "/react-hw-filter/index.html",
+    "main.e6c13ad2.css.map": "/react-hw-filter/static/css/main.e6c13ad2.css.map",
+    "main.e8d2ecaa.js.map": "/react-hw-filter/static/js/main.e8d2ecaa.js.map",
+    "787.04097c43.chunk.js.map": "/react-hw-filter/static/js/787.04097c43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e8d2ecaa.js"
+  ]
+}
