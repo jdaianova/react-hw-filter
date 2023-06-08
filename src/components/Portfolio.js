@@ -1,8 +1,15 @@
-function Portfolio () {
+function Portfolio({arrProjects}) {
+
     return (
-        <>
-        <h1>Hello!</h1>
-        </>
+        <div className="Gallery">
+            {arrProjects.map((el, id) => {
+                return (
+                    <div key={id}>
+                        <img src={el.img}></img>
+                    </div>
+                )
+            })}
+        </div>
     )
 }
 

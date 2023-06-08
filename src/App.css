@@ -1,3 +1,41 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.App {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Gallery {
+    /* outline: 1px solid red; */
+    width: 80%;
+    column-count: 3;
+    margin: 0 auto;
+}
+
+.Gallery img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.Toolbar {
+    margin-bottom: 20px;
+}
+
+.Toolbar button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.Toolbar button:focus {
+    background-color: black;
+    color: white;
+    
 }
