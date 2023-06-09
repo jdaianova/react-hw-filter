@@ -1,9 +1,15 @@
-function ProjectList () {
+function ProjectList ({arrProjects}) {
 
     return (
         <div className="Gallery">
-
-        </div>
+                {arrProjects.map((el, index) => {
+                    return (
+                        <div key={index}>
+                            <img src={el.img}></img>
+                        </div>
+                    )
+                })}
+            </div>
     )
 }
 
